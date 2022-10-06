@@ -1,3 +1,9 @@
 #area {
-  background-color: #37ff37;
+  font: normal 20pt Arial;
+  background: #05b105;
+  color: #ffffff;
+  width: 250px;
+  height: 250px;
+  line-height: 250px;
+  text-align: center;
 }
