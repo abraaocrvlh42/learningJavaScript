@@ -1,17 +1,15 @@
-function clicar() {
-  let a = document.getElementById('area')
+let a = document.getElementById('area')
+let e = document.getElementById('area')
+let s = document.getElementById('area')
 
+function clicar() {
   a.innerText = 'Clicou >.<'
 }
 
 function entrar() {
-  let e = document.getElementById('area')
-
   e.innerText = 'Entrou :)'
 }
 
 function sair() {
-  let s = document.getElementById('area')
-
   s.innerText = 'Saiu :('
 }
