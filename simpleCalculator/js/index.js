@@ -10,5 +10,5 @@ function sum() {
   
   let sum = n1 + n2
 
-  
+  res.innerHTML = `The result is ${sum}`
 }
