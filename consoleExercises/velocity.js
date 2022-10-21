@@ -4,4 +4,4 @@ let model = 'uno'
 
 console.log(`${car}`)
 console.log(`${vel}`)
-console.log('${model}')
+console.log(`${model}`)
