@@ -1,5 +1,5 @@
 let vel = 60.5
-let car = ''
+let car = 'fiat'
 let model = 'uno'
 
 console.log(`${car}`)
