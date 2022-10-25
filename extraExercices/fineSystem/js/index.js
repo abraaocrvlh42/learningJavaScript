@@ -1,4 +1,5 @@
 function calculate() {
-  let = document.getElementById('#velocity')
-  let = document.getElementById('#result')
+  let vel = document.getElementById('#velocity')
+  let res = document.getElementById('#result')
+  let calc = 
 }
