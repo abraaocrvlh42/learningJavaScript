@@ -1,9 +1,15 @@
 // Rental Car
 
-function calculate() {
-  let diaries = document.getElementById('diarias')
-  let kilometers = document.getElementById('kms')
-  let vTot = document.getElementById('vTotal')
+let btn = document.querySelector(".btn-form");
+    let valorTotalInput = document.querySelector(".valorTotal");
 
-  let calc = Number()
-}
+    btn.addEventListener("click", function () {
+      let dailyQuantity = Number(
+        document.querySelector(".dailyQuantity").value
+      );
+      let valueMileageRound = Number(
+        document.querySelector(".valueMileageRound").value
+      );
+
+      valorTotalInput.value = dailyQuantity + valueMileageRound;
+    });
