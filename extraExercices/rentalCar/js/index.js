@@ -12,5 +12,5 @@ btn.addEventListener('click', function () {
     document.querySelector(".valueMileageRound").value
     )
 
-    valueTotalInput.value = dailyQuantity + valueMileageRound
+    valueTotalInput.value = (dailyQuantity * 110) + (valueMileageRound * 0.75)
 })
