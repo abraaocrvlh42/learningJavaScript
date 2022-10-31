@@ -5,11 +5,12 @@ let valueTotalInput = document.querySelector('.amount')
 
 btn.addEventListener('click', function () {
   let dailyQuantity = Number(
-    document.querySelector('.dailyQuantity').value)
+    document.querySelector('.dailyQuantity').value
+    )
       
   let valueMileageRound = Number(
     document.querySelector(".valueMileageRound").value
-      )
+    )
 
     valueTotalInput.value = dailyQuantity + valueMileageRound
 })
