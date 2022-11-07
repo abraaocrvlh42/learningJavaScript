@@ -1,0 +1,38 @@
+body {
+  background: #6b6bf1;
+  font: normal 15pt arial;
+}
+
+header {
+  color: #ffffff;
+  text-align: center;
+}
+
+section {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px #00000083;
+}
+
+footer {
+  color: #ffffff;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Config photo */
+
+.image {
+  height: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.afternoon {
+  height: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
