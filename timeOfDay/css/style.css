@@ -17,6 +17,11 @@ section {
   box-shadow: 5px 5px 10px #00000083;
 }
 
+div {
+  text-align: center;
+  padding: 8px;
+}
+
 footer {
   color: #ffffff;
   text-align: center;
@@ -25,13 +30,19 @@ footer {
 
 /* Config photo */
 
-.image {
+.morning {
   height: 300px;
   height: 300px;
   border-radius: 50%;
 }
 
 .afternoon {
+  height: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.night {
   height: 300px;
   height: 300px;
   border-radius: 50%;
