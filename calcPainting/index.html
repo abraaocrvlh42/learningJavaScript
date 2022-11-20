@@ -10,8 +10,14 @@
   <body>
     <h1>Welcome to Paint Calculator</h1>
 
-    <input type="number" name="wall width" placeholder="Wall width"  class="width">
-    <input type="number" name="wall height" placeholder="Wall height" class="height">
-    <input type="button" class="calculate" value="calculate">
+    <input type="number" name="wall width" placeholder="Wall width"  id="width">
+    <input type="number" name="wall height" placeholder="Wall height" id="height">
+    <input type="button" id="calculate" value="calculate" onclick="calcPaint()">
+
+    <div id="result">
+
+    </div>
+
+    <script src="js/index.js"></script>
   </body>
 </html>
