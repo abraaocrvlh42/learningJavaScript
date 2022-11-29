@@ -11,5 +11,5 @@ function calcPaint() {
 
   let calc = wid * hei
 
-  calculate.innerHTML = `The result is: ${calc}`
+  res.innerHTML = `The result is: ${calc}`
 }
