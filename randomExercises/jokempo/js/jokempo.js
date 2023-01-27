@@ -1,16 +1,16 @@
-let contador   = document.getElementById("contar"),
-    formPc     = document.getElementById("pchoose"),
-    rock       = document.getElementById("pedra"),
-    paper      = document.getElementById("papel"),
-    scissors   = document.getElementById("tesoura"),
-    choose     = document.getElementById("choose"),
-    win        = document.getElementById("win"),
-    lose       = document.getElementById("lose"),
-    empate     = document.getElementById("draw"),
-    resetar    = document.getElementById("reset"),
-    back       = document.getElementById("jogar"),
-    vitoria    = 0,
-    derrota    = 0;
+let contador = document.getElementById("contar"),
+    formPc   = document.getElementById("pchoose"),
+    rock     = document.getElementById("pedra"),
+    paper    = document.getElementById("papel"),
+    scissors = document.getElementById("tesoura"),
+    choose   = document.getElementById("choose"),
+    win      = document.getElementById("win"),
+    lose     = document.getElementById("lose"),
+    empate   = document.getElementById("draw"),
+    resetar  = document.getElementById("reset"),
+    back     = document.getElementById("jogar"),
+    vitoria  = 0,
+    derrota  = 0;
 
 resetar.onclick = function(){
   formPc.reset();
