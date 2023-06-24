@@ -67,19 +67,17 @@ let compare = function(arma) {
       formPc.pc.value = computer;
       contador.empate.value = +contador.empate.value + 1;
       showDraw();
-     
+    
     } else if (computer == "Paper!"){
       
-       formPc.pc.value = computer;
+      formPc.pc.value = computer;
       contador.lose.value = +contador.lose.value + 1;
       showLose();
-      
     
     } else {
       formPc.pc.value = computer;
       contador.vic.value = +contador.vic.value + 1;
       showWin();
- 
     }
   }
   if (arma == "papel"){
@@ -107,10 +105,10 @@ let compare = function(arma) {
       formPc.pc.value = computer;
       contador.lose.value = +contador.lose.value + 1;
       showLose();
-     
+    
     } else if (computer == "Paper!"){
       
-       formPc.pc.value = computer;
+      formPc.pc.value = computer;
       contador.vic.value = +contador.vic.value + 1;
       showWin();
     
@@ -118,7 +116,7 @@ let compare = function(arma) {
       formPc.pc.value = computer;
       contador.empate.value = +contador.empate.value + 1;
       showDraw();
-   
+  
     }
   }
 }
