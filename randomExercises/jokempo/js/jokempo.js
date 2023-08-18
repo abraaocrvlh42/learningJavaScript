@@ -36,13 +36,13 @@ function showWin() {
   delay();
 }
 
-function showDraw(){
+function showDraw() {
   choose.style.display="block";
   empate.style.display="block";
   delay();
 }
 
-function showLose(){
+function showLose() {
   choose.style.display="block";
   lose.style.display="block";
   delay();
