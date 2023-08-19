@@ -24,13 +24,13 @@ function winDisappear(){
     empate.style.display="none";
   }
 
-function delay(){
-  setTimeout(function(){
+function delay() {
+  setTimeout(function() {
     winDisappear()
   },650);
 }
 
-function showWin(){
+function showWin() {
   choose.style.display="block";
   win.style.display="block";
   delay();
