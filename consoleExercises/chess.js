@@ -1,4 +1,4 @@
-// chess
+// chess 
 
 function createBoard(size) {
   let board = '';
