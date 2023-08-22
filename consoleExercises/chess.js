@@ -1,3 +1,4 @@
+
 function createBoard(size) {
   let board = '';
 
