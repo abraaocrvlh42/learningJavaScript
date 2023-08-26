@@ -9,5 +9,5 @@ function calculate() {
     result.innerHTML += 'Fined for speeding !'
   }
 
-  result.innerHTML = 'Drive safely ! '
+  result.innerHTML = 'Drive safely !'
 }
