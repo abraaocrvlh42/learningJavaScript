@@ -6,7 +6,7 @@ function calculate() {
   result.innerHTML = `Your current speed is: ${vel}km/h`
 
   if (vel > 60) {
-    result.innerHTML += 'Fined for speeding !'
+    result.innerHTML += 'Fined for speeding ! '
   }
 
   result.innerHTML = 'Drive safely ! '
