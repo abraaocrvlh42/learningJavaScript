@@ -7,4 +7,5 @@ const person = {
   isAdmin: true
 }
 
-// 
+// Get each property separately
+console.log(person.name)
