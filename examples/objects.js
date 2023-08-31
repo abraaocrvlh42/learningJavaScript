@@ -3,5 +3,8 @@
 const person = {
   name: 'Abraão',
   age: 29,
-  weight: 1.72
+  weight: 1.72,
+  isAdmin: true
 }
+
+// 
