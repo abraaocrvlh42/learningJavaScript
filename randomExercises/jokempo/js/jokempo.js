@@ -50,7 +50,7 @@ function showLose() {
 
 let compare = function(arma) {
   
-    let computer = [1,2,3];
+    let computer = [1, 2, 3];
     let random = computer[Math.floor(Math.random()*computer.length)];
       
       if (random == 1){
