@@ -63,7 +63,6 @@ let compare = function(arma) {
   
   if (arma == "pedra"){
     if (computer == "Rock!"){
-      
       formPc.pc.value = computer;
       contador.empate.value = +contador.empate.value + 1;
       showDraw();
